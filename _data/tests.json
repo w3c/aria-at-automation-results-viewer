@@ -1,0 +1,68 @@
+[
+  {
+    "name": "alert"
+  },
+  {
+    "name": "breadcrumb"
+  },
+  {
+    "name": "checkbox-tri-state"
+  },
+  {
+    "name": "checkbox"
+  },
+  {
+    "name": "combobox-autocomplete-both-updated"
+  },
+  {
+    "name": "combobox-select-only"
+  },
+  {
+    "name": "command-button"
+  },
+  {
+    "name": "disclosure-faq"
+  },
+  {
+    "name": "disclosure-navigation"
+  },
+  {
+    "name": "disclosure-slider"
+  },
+  {
+    "name": "horizontal-slider"
+  },
+  {
+    "name": "menu-button-actions-active-descendant"
+  },
+  {
+    "name": "menu-button-actions"
+  },
+  {
+    "name": "menubar-editor"
+  },
+  {
+    "name": "minimal-data-grid"
+  },
+  {
+    "name": "modal-dialog"
+  },
+  {
+    "name": "radiogroup-aria-activedescendant"
+  },
+  {
+    "name": "radiogroup-roving-tabindex"
+  },
+  {
+    "name": "result-rating-slider"
+  },
+  {
+    "name": "tabs-manual-activation"
+  },
+  {
+    "name": "toggle-button"
+  },
+  {
+    "name": "vertical-temperature-slider"
+  }
+]

@@ -1,0 +1,15 @@
+---
+layout: results.njk
+pagination:
+    data: tests
+    size: 1
+    alias: test
+permalink: "results/{{ test.name | slug }}/"
+title: "{{ test.name | slug }} | aria-at.report"
+---
+
+<h1>aria-at.report</h1>
+
+<h2>Test: {{ test.name }}</h2>
+
+{% resultsTable results, test.name %}
