@@ -1,8 +1,8 @@
 ---
 layout: results.njk
-title: aria-at.report
+title: ARIA-AT Report
 ---
-# aria-at.report
+# ARIA-AT Report
 
 ## Test results
 
