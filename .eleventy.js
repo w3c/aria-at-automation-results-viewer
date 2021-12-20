@@ -35,7 +35,7 @@ module.exports = function(eleventyConfig) {
           for (const subTest of value[item][test].tests) {
             const testName = subTest.filepath.replace(".collected.json", "");
             const row = addRow(testName);
-            row[item] = subTest.log;
+            row[item] = subTest.log.map(item => item.text).join('\n');
           }
         }
       }
@@ -43,6 +43,8 @@ module.exports = function(eleventyConfig) {
     let rv = tableify(table);
     if (!testPageName) {
       rv = rv.replace(/<tr><td class="string">([^<]+)/g, '<tr><td class="string"><a href="/results/$1">$1</a>');
+    } else {
+    	rv = rv.replace(/<\/td><td class="string">([^<]+)/g, '</td><td class="string"><pre>$1</pre>');
     }
     return rv;
   });
