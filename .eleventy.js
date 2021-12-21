@@ -1,5 +1,6 @@
 module.exports = function(eleventyConfig) {
   let tableify = require("tableify");
+  const pathPrefix = '/aria-at-report'; // This is for deployment to GitHub pages
 
   eleventyConfig.addShortcode("resultsTable", function(value, testPageName) {
     const table = [];
@@ -42,7 +43,7 @@ module.exports = function(eleventyConfig) {
     }
     let rv = tableify(table);
     if (!testPageName) {
-      rv = rv.replace(/<tr><td class="string">([^<]+)/g, '<tr><td class="string"><a href="/results/$1">$1</a>');
+      rv = rv.replace(/<tr><td class="string">([^<]+)/g, `<tr><td class="string"><a href="${ pathPrefix }/results/$1">$1</a>`);
     } else {
     	rv = rv.replace(/<\/td><td class="string">([^<]+)/g, '</td><td class="string"><pre>$1</pre>');
     }
@@ -53,6 +54,7 @@ module.exports = function(eleventyConfig) {
 
   return {
     passthroughFileCopy: true,
+    pathPrefix,
   	dir: {
   		input: "pages",
   		output: "_site",
