@@ -5,4 +5,4 @@
 2. Serve the site locally with `npm run serve`.
 
 # Deploying to GitHub Pages
-Currently, changes to any branch will cause a deploy to GitHub pages automatically.
+Changes to the `main` branch will cause a deploy to GitHub Pages automatically.
