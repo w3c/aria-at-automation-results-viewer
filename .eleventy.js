@@ -1,6 +1,6 @@
 module.exports = function(eleventyConfig) {
   let tableify = require("tableify");
-  const pathPrefix = '/aria-at-report'; // This is for deployment to GitHub pages
+  const pathPrefix = '/aria-at-results-viewer'; // This is for deployment to GitHub pages
 
   eleventyConfig.addShortcode("resultsTable", function(value, testPageName) {
     const table = [];
