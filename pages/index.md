@@ -1,8 +1,8 @@
 ---
 layout: results.njk
-title: ARIA-AT Report
+title: ARIA-AT Automated Test Results
 ---
-# ARIA-AT Report
+# ARIA-AT Automated Test Results
 
 ## Test results
 
