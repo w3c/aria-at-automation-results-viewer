@@ -6,3 +6,4 @@
 
 # Deploying to GitHub Pages
 Changes to the `main` branch will cause a deploy to GitHub Pages automatically.
+The site can be viewed at https://bocoup.github.io/aria-at-report/.
