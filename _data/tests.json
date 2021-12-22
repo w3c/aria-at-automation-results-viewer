@@ -27,9 +27,6 @@
     "name": "disclosure-navigation"
   },
   {
-    "name": "disclosure-slider"
-  },
-  {
     "name": "horizontal-slider"
   },
   {
@@ -54,7 +51,7 @@
     "name": "radiogroup-roving-tabindex"
   },
   {
-    "name": "result-rating-slider"
+    "name": "rating-slider"
   },
   {
     "name": "tabs-manual-activation"
