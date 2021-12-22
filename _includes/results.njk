@@ -4,9 +4,18 @@
 <meta name=viewport content="width=device-width, initial-scale=1">
 <title>{{ title }}</title>
 <style>
-html { font-family: sans-serif; }
-table { border: thin outset gray; }
-th, td { vertical-align: baseline; text-align: start; border: thin inset gray; padding: 0.25em; }
+html { font-family: system-ui, sans-serif; background-color: white; color: black; }
+h1 { background-color: #f8f9fa; margin: 0; padding: 0.5em 0; font-size: 1.6em; }
+h2 { font-weight: 500; font-size: 2em; border-bottom: 1px solid gainsboro; padding-bottom: 0.25em; }
+:link, :visited { text-decoration: none; }
+:link:hover, :visited:hover { text-decoration: underline; }
+:link { color: #0b60ab; }
+:visited { color: #6f42c1; }
+table { border-collapse: collapse; }
+th, td { vertical-align: baseline; text-align: start; border: 1px solid #d2d5d9; padding: 0.75em; }
+th { background-color: #e9ebee; }
+tr:nth-child(even) > td { background-color: #fafbfc; }
+tr:hover > td { background-color: #f6f8fa; }
 pre { margin: 0; font: inherit; white-space: pre-wrap; }
 </style>
 {{ content | safe }}
