@@ -17,4 +17,4 @@ Candidate aria-at tests are in review by assistive technology developers and lac
 1. applicability and validity of the tests, and
 2. accuracy of test results.
 
-{% resultsTable results %}
+{% overviewResultsTable results %}
