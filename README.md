@@ -1,4 +1,6 @@
-# aria-at-results-viewer
+# aria-at-automation-results-viewer
+
+A tool which translates the JSON-formatted data produced by the [aria-at-automation-harness](https://github.com/bocoup/aria-at-automation-harness) into a human-readable form
 
 # Local Development
 1. Build the site with Eleventy using `npm run build`.
